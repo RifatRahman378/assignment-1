@@ -364,17 +364,22 @@ padding-bottom: 64px;
 
 .group {
     width: 1320px;
-
+position: relative;
 }
-
-.two {
+.div-one{
+    position: absolute;
+    bottom: 0px 
+}
+.two{
     position: absolute;
     z-index: 2;
-    padding-right: 286px;
+    top: 70px;
+    right: 280px;
 }
 
+
 .three {
-    position: relative;
+   margin-bottom: -5px;
 }
 
 /* section seven styles */
